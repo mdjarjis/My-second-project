@@ -1085,7 +1085,7 @@ footer {
   flex-direction: column;
   flex: 1;
   justify-content: space-between;
-  padding-left: 15%;
+  padding-left: 0;
 }
 
 .logo {
