@@ -535,6 +535,63 @@ button:hover {
   color: rgba(255, 255, 255, 0.484);
 }
 
+/* unique section css */
+.customer-feedback {
+  color: #ffffff;
+  margin: 5%;
+  text-align: center;
+  width: 90%;
+}
+
+.feedback-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.customer-feedback h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 30px;
+  color: #ff4a4a;
+}
+
+.feedback-card {
+  background-color: #1e1c1c;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 3% 0;
+}
+
+.feedback-card p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.feedback-card h3 {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ff4a4a;
+}
+
+.view-more {
+  background-color: #E6533C;
+  color: #fff;
+  width: 50%;
+  margin: 0;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 42px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 30px;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+
 /* footer css */
 footer {
   background-color: #1a1a1a;
@@ -612,7 +669,6 @@ footer {
 
 /* Media Queries for screens smaller than 576px */
 
-  /* General Styles */
   @media screen and (max-width: 576px) {
     
 body {
@@ -729,13 +785,14 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
+  padding-top: 7px;
 }
 p {
   margin: 0;
 }
 
 .workout-videos {
-  top: 60px;
+  top: 70px;
   left: 58%;
   width: 120px;
   height: 70px;
@@ -1056,6 +1113,20 @@ button {
   font-size: 14px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.484);
+}
+
+/* unique section */
+.view-more {
+  background-color: #E6533C;
+  color: #fff;
+  width: 50%;
+  margin: 0;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 42px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 /* Footer */
